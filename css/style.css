@@ -306,6 +306,7 @@ padding-top: 76px;
 .people-img{
     max-width: 385px;
     margin-right: 50px;
+
 }
 
 .power .people-img img{
@@ -347,6 +348,104 @@ padding-top: 76px;
     color: #000000;
 }
 
+.thalby-guides{
+    padding-top: 190px;
+    padding-bottom: 290px;
+
+}
+
+.thalby{
+    max-width: 1060px;
+    margin: auto;
+
+}
 
 
 
+
+.thalby-guides h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 69px;
+}
+
+.thalby-guides h5 {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 111px;
+}
+
+.thalby-guides img {
+    margin-bottom: 26px;
+    position: relative;
+    margin-left: 45px;
+}
+
+.text-h4{
+    margin-top: 53px;
+}
+
+
+.men{
+    background: #F0F0F0;
+
+
+
+}
+
+.main-men{
+top: -188px;
+position: relative;}
+
+
+.men img{
+    margin-bottom: 35px;
+}
+
+
+.men h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+    margin-bottom: 64px;
+
+}
+
+.men p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 44px;
+    color: #000000;
+}
+
+.men a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: block;
+}
