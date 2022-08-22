@@ -357,11 +357,26 @@ padding-top: 76px;
 .thalby{
     max-width: 1060px;
     margin: auto;
-
+ flex-wrap: wrap;
 }
 
 
 
+
+
+.basis{
+    flex-basis: 33%;
+   text-align: center;
+
+}
+
+.thalby-guides img{
+    margin-bottom: 26px;
+}
+
+.text-h5{
+    margin-bottom:111px ;
+}
 
 .thalby-guides h4{
     font-family: 'Roboto', sans-serif;
@@ -372,6 +387,7 @@ padding-top: 76px;
     text-align: center;
     color: #000000;
     margin-bottom: 69px;
+
 }
 
 .thalby-guides h5 {
@@ -383,30 +399,25 @@ padding-top: 76px;
     line-height: 35px;
     text-align: center;
     color: #000000;
-    margin-bottom: 111px;
-}
 
-.thalby-guides img {
-    margin-bottom: 26px;
-    position: relative;
-    margin-left: 45px;
 }
 
 .text-h4{
-    margin-top: 53px;
+
 }
 
 
 .men{
-    background: #F0F0F0;
+    background: #F0F0F0;}
+
+    .men_first{
+        margin-top: -200px;
+        padding-bottom: 52px;
+    }
 
 
 
-}
 
-.main-men{
-top: -188px;
-position: relative;}
 
 
 .men img{
