@@ -6,10 +6,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+
 </head>
 <body>
 <header>
@@ -101,9 +107,13 @@
         Our best sellers
     </h3>
 
-    <div class="box d-flex justify-between align-center">
 
-        <div>
+
+
+
+    <div class="box d-flex justify-between align-center owl-carousel">
+
+        <div class="guide-width">
             <img src="img/culture.jpg" alt="photo">
             <h4>
                 Thalby Guide to <br> French Culture and <br> Heritage
@@ -117,7 +127,7 @@
 
 
         </div>
-        <div>
+        <div class="guide-width">
             <img src="img/society.jpg" alt="photo">
 
             <h4>
@@ -130,7 +140,47 @@
                 Add to cart
             </a>
         </div>
-        <div>
+        <div class="guide-width">
+            <img src="img/german.jpg" alt="photo">
+
+            <h4>
+                Thalby Guide to <br> German Culture and <br> Heritage
+            </h4>
+            <p>
+                USD 6.99
+            </p>
+            <a href="#" title="link">
+                Add to cart
+            </a>
+        </div>
+        <div class="guide-width">
+            <img src="img/culture.jpg" alt="photo">
+            <h4>
+                Thalby Guide to <br> French Culture and <br> Heritage
+            </h4>
+            <p>
+                USD 6.99
+            </p>
+            <a href="#" title="link">
+                Add to cart
+            </a>
+
+
+        </div>
+        <div class="guide-width">
+            <img src="img/society.jpg" alt="photo">
+
+            <h4>
+                Thalby Guide to<br> French People and <br> Society
+            </h4>
+            <p>
+                USD 6.99
+            </p>
+            <a href="#" title="link">
+                Add to cart
+            </a>
+        </div>
+        <div class="guide-width">
             <img src="img/german.jpg" alt="photo">
 
             <h4>
@@ -241,7 +291,7 @@
 </section>
 
 <section class="men">
-    <div class=" container d-flex align-center container justify-between">
+    <div class=" container d-flex justify-between align-center ">
         <div class="men_first">
     <img src="img/men1.png" alt="men">
 
@@ -280,14 +330,99 @@
 
         <a href="#">Discover</a>
     </div>
+</div>
+</section>
 
+<section class="input">
 
+    <div class="input-text ">
 
-
+        <h3>
+            Keep in touch
+        </h3>
+        <p>
+            Get our travel advice, global views and travel freebies in your inbox
+        </p>
+<form class="input-form">
+    <div class="first-input d-flex justify-between">
+       <div>
+           <label>
+        <input class="First-Name" type="text" name="First Name" placeholder="First Name">
+           </label>
+    </div>
+        <div>
+        <label>
+        <input class="Last-Name" type="text" name="Last Name" placeholder="Last Name">
+        </label>
+        </div>
+    </div>
+    <div class="last-input">
+        <label>
+        <input class="last-input" type="text" name="Email" placeholder="Email">
+        </label>
+    </div>
+<div class="button">
+    <button>
+        Subscribe
+    </button>
 </div>
 
+
+</form>
+    </div>
 </section>
 
 
+
+<footer>
+<div class="footer d-flex justify-between ">
+<div class="last-logo">
+    <a  href="#">
+        <img src="img/LOGO2.svg" alt="logo>">
+    </a>
+
+ <ul class=" icon d-flex align-center">
+     <li><a href="#"><img src="img/FB.svg" alt="icon"></a> </li>
+     <li><a href="#"><img src="img/inst.svg" alt="icon"></a> </li>
+     <li><a href="#"><img src="img/twit.svg" alt="icon"></a> </li>
+ </ul>
+</div>
+    <div class="nav-about">
+    <nav>
+        <ul>
+            <li> <a href="#">ABOUT</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and </a>Terms and Conditions</li>
+            <li><a href="#">Write for Us</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="nav-about">
+    <nav>
+        <ul>
+            <li><a href="#">CONTACT</a>CONTACT</li>
+            <li><a href="#">Email hi@thalby.com</a></li>
+            <li><a href="#">Help</a></li>
+
+        </ul>
+    </nav>
+    </div>
+</div>
+<h5>
+    Thalby LLC © 2021
+</h5>
+
+</footer>
+
+
+
+<script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
