@@ -108,7 +108,7 @@ flex-direction: column;
 @media screen and (max-width: 428px) {
     .main-banner img {
         position: relative;
-        right: 150px;
+        right: 180px;
         top: 0;
     }
 }

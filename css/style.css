@@ -405,26 +405,16 @@ header .logo {
 
 }
 
-.thalby {
-    max-width: 1060px;
-    margin: auto;
-    flex-wrap: wrap;
-}
-
-
-.basis {
-    flex-basis: 33%;
+.thalby{
+    flex-wrap:wrap ;
+    display: flex;
+    align-items: center;
+    padding-bottom: 51px;
+    justify-content: space-between;
     text-align: center;
-
 }
 
-.thalby-guides img {
-    margin-bottom: 26px;
-}
 
-.text-h5 {
-    margin-bottom: 111px;
-}
 
 .thalby-guides h4 {
     font-family: 'Roboto', sans-serif;
@@ -435,7 +425,63 @@ header .logo {
     text-align: center;
     color: #000000;
     margin-bottom: 69px;
+}
 
+.basis {
+    flex-basis: 33%;
+    margin-bottom:110px ;
+}
+
+.color-1{
+background: #21F7EC;
+border-radius: 35px;
+height: 70px;
+width: 70px;
+display: inline-block;
+margin-bottom: 26px;}
+.color-2{
+    background: #33D3BC;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
+.color-3{
+    background: #18A5C6;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
+
+.color-4{
+    background: #D38F62;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
+.color-5{
+    background: #F94C43;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+.color-6{
+    background: #D399FF;
+    border-radius: 35px;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-bottom: 26px;
 }
 
 .thalby-guides h5 {
@@ -445,13 +491,19 @@ header .logo {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    text-align: center;
     color: #000000;
-
+    position: relative;
 }
 
-.text-h4 {
+.basis h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
 
+    color: #000000;
 }
 
 
@@ -512,12 +564,7 @@ header .logo {
 
 }
 
-.input-text {
-    margin: auto;
-    max-width: 496px;
-}
-
-.input-text h3 {
+.input h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -529,7 +576,7 @@ header .logo {
 
 }
 
-.input-text p {
+.input p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -638,7 +685,7 @@ footer {
     margin-left: 21px;
 }
 
-footer .nav-about nav a{
+footer .ul-about a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -660,11 +707,11 @@ footer h5 {
     margin-top: 8px;
 }
 
-.nav-about nav ul li{
+.ul-about  ul li{
   margin-bottom: 12px;
 }
 
-.nav-about nav ul li:first-of-type{
+.ul-about  ul li:first-of-type{
      margin-bottom: 36px;
 }
 
