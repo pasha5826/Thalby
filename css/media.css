@@ -108,9 +108,18 @@ flex-direction: column;
 @media screen and (max-width: 428px) {
     .main-banner img {
         position: relative;
-        right: 180px;
+        right: 140px;
         top: 0;
 
+    }
+    body{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .footer{
+        display: none;
     }
 }
 
