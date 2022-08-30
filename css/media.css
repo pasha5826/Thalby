@@ -83,6 +83,9 @@ flex-direction: column;
     .footer .last-logo {
        margin-right: 350px;
    }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 
@@ -113,8 +116,6 @@ flex-direction: column;
 
     }
     body{
-        width: 100%;
-        max-width: 100%;
         overflow-x: hidden;
     }
 
