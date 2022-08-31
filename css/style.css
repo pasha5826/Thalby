@@ -759,7 +759,7 @@ footer h5 {
 }
 
 
-.Search-enter input{
+.Search-enter {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
