@@ -594,7 +594,7 @@ margin-bottom: 26px;}
 }
 
 
-form input {
+.input-form input {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -715,7 +715,69 @@ footer h5 {
      margin-bottom: 36px;
 }
 
+.ui-dialog .ui-dialog-content{
 
+
+}
+.ui-widget.ui-widget-content {
+    border: 3px solid #000;
+    max-width: 650px;!important;
+
+
+}
+.ui-draggable .ui-dialog-titlebar{
+    text-align: center;
+}
+
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #F0EFEB;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+   }
+
+.ui-widget{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.ui-widget{
+    border: 2px solid #000;
+    background: #FFF;
+    font-weight: normal;
+    color: #FFF;
+}
+
+.Search{
+    max-width: 600px;
+
+}
+
+
+.Search-enter input{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding-left: 8px;
+    height: 39px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.ui-widget{
+    text-align: center;
+
+}
 
 
 
