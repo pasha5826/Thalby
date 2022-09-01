@@ -719,7 +719,8 @@ footer h5 {
 .ui-widget.ui-widget-content {
     border: 7px solid #000;
     max-width: 650px;!important;
-    max-height: 160px;!important;
+    max-height: 150px;!important;
+
 
 
 
@@ -754,7 +755,7 @@ footer h5 {
 
 .Search{
     max-width: 600px;
-    display: none;
+
 
 
 }
@@ -775,11 +776,12 @@ footer h5 {
     width: 100%;
 }
 
-.ui-widget{
+
+
+#dialog{
+    overflow: hidden;
     text-align: center;
-
+    display: none;
 }
-
-
 
 
