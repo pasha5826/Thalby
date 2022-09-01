@@ -715,13 +715,12 @@ footer h5 {
      margin-bottom: 36px;
 }
 
-.ui-dialog .ui-dialog-content{
 
-
-}
 .ui-widget.ui-widget-content {
-    border: 3px solid #000;
+    border: 7px solid #000;
     max-width: 650px;!important;
+    max-height: 160px;!important;
+
 
 
 }
@@ -755,6 +754,8 @@ footer h5 {
 
 .Search{
     max-width: 600px;
+    display: none;
+
 
 }
 

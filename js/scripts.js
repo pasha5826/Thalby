@@ -6,7 +6,7 @@ $(document).ready(function(){
             autoOpen: false,
             show: {
                 effect: "blind",
-                duration: 1000
+                duration: 500
             },
             hide: {
                 effect: "explode",
