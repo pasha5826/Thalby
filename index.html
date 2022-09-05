@@ -19,56 +19,65 @@
 
 
 </head>
-<body>
+<body class="light">
 
-<form class="Search"  id="dialog" title="Search">
-<label >
-    <input class="Search-enter" type="text" name="Enter a query" placeholder="Enter a query in the search">
-</label>
-        <button>Find</button>
+<form class="Search" id="dialog" title="Search">
+    <label>
+        <input class="Search-enter" type="text" name="Enter a query" placeholder="Enter a query in the search">
+    </label>
+    <button>Find</button>
 </form>
-
-
 <header>
-    <div class="container d-flex justify-between align-center">
-        <nav>
-            <ul class="d-flex align-center">
-                <li>
-                    <a href="#">Shop</a>
-                </li>
-                <li>
-                    <a href="#">Collections</a>
-                </li>
-                <li>
-                    <a href="#">Try a Free Guide</a>
-                </li>
-                <li>
-                    <a href="#">Stories</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="#" class="logo">
-            <img src="img/logo.svg" alt="logo">
-        </a>
-        <ul class="d-flex align-center">
-            <li>
-                <a href="#" title="instagram">
-                    <img  src="img/instagram.svg" alt="insta">
-                </a>
-            </li>
-            <li>
-                <a href="#" title="search">
-                    <img id="opener" src="img/search1.svg" alt="search">
-                </a>
-            </li>
-            <li>
-                <a href="#" title="shop">
-                    <img src="img/shop.svg" alt="shop">
-                </a>
-            </li>
-        </ul>
+    <div class="header-wrapper container d-flex justify-between align-center">
+        <div class="nav">
+            <nav class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Collections</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
+                </ul>
+            </nav>
+        </div>
+
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+
+                <ul class="d-flex align-center">
+                    <li>
+                        <a href="#" title="instagram">
+                            <img  src="img/instagram.svg" alt="insta">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="search">
+                            <img id="opener" src="img/search1.svg" alt="search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="shop">
+                            <img src="img/shop.svg" alt="shop">
+                        </a>
+                    </li>
+                </ul>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
     </div>
 </header>
+
+
+
+
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
+
 
 <section class="main-banner">
 
@@ -117,9 +126,6 @@
     <h3 class="text-h3">
         Our best sellers
     </h3>
-
-
-
 
 
     <div class="box d-flex justify-between align-center owl-carousel">
@@ -221,65 +227,65 @@
     <div class=" container thalby d-flex align-center justify-between">
         <div class="basis">
             <span class="color-1"> </span>
-            <h5 >
+            <h5>
                 Written by<br>locals
             </h5>
         </div>
-            <div class="basis">
-                <span class="color-2"> </span>
-            <h5 >
+        <div class="basis">
+            <span class="color-2"> </span>
+            <h5>
                 Packed with<br> insight
             </h5>
         </div>
         <div class="basis">
             <span class="color-3"> </span>
 
-                <h5 >
-                    Interviews with<br>diverse voices
-                </h5>
+            <h5>
+                Interviews with<br>diverse voices
+            </h5>
         </div>
-            <div class="basis">
-                <span class="color-4"> </span>
-                    <h5 >
-                        Key facts and<br> etiquette tips
-                    </h5>
-                </div>
-                    <div class="basis">
-                        <span class="color-5"> </span>
-                        <h5>
-                            A concise<br>1-hour read
-                        </h5>
-                    </div>
-            <div class="basis">
-                <span class="color-6"> </span>
-                            <h5>
-                                Instant<br>locals
-                            </h5>
-                        </div>
-                    </div>
+        <div class="basis">
+            <span class="color-4"> </span>
+            <h5>
+                Key facts and<br> etiquette tips
+            </h5>
+        </div>
+        <div class="basis">
+            <span class="color-5"> </span>
+            <h5>
+                A concise<br>1-hour read
+            </h5>
+        </div>
+        <div class="basis">
+            <span class="color-6"> </span>
+            <h5>
+                Instant<br>locals
+            </h5>
+        </div>
+    </div>
 
-        <h4 class="text-h7">
-            Each Thalby guide includes interviews with<br>a range of fascinating voices, such as     </h4>
+    <h4 class="text-h7">
+        Each Thalby guide includes interviews with<br>a range of fascinating voices, such as </h4>
 </section>
 
 <section class="men">
     <div class=" container d-flex justify-between align-center ">
         <div class="men_first">
-    <img src="img/men1.png" alt="men">
+            <img src="img/men1.png" alt="men">
 
 
-        <h5>
-            "I don’t like things to be<br> conventional. If it’s too<br>  nice, I bring disorder."
-        </h5>
+            <h5>
+                "I don’t like things to be<br> conventional. If it’s too<br> nice, I bring disorder."
+            </h5>
 
-        <p>
-            Camille Muller,<br>Landscape Designer, France
-        </p>
+            <p>
+                Camille Muller,<br>Landscape Designer, France
+            </p>
 
-        <a href="#">Discover</a>
-    </div>
+            <a href="#">Discover</a>
+        </div>
         <div class="men_first">
-    <img src="img/men2.png" alt="men">
+            <img src="img/men2.png" alt="men">
             <h5>
                 "Magic is not magic in <br> the sense that I can just<br> wish for anything."
             </h5>
@@ -289,97 +295,95 @@
             </p>
 
             <a href="#">Discover</a>
-    </div>
-    <div class="men_first">
-    <img src="img/men3.png" alt="men">
-        <h5>
-            "I was eight years old <br> when I entered my first<br> competition. I won it."
-        </h5>
+        </div>
+        <div class="men_first">
+            <img src="img/men3.png" alt="men">
+            <h5>
+                "I was eight years old <br> when I entered my first<br> competition. I won it."
+            </h5>
 
-        <p>
-            Lilly Stoephasius,<br>Skateboarder, Germany
-        </p>
+            <p>
+                Lilly Stoephasius,<br>Skateboarder, Germany
+            </p>
 
-        <a href="#">Discover</a>
+            <a href="#">Discover</a>
+        </div>
     </div>
-</div>
 </section>
 
 <section class="input">
 
-        <h3>
-            Keep in touch
-        </h3>
-        <p>
-            Get our travel advice, global views and travel freebies in your<br>inbox
-        </p>
-<form class="input-form">
-    <div class="first-input d-flex justify-between">
-           <label>
-        <input class="First-Name" type="text" name="First Name" placeholder="First Name">
-           </label>
-        <label>
-        <input class="Last-Name" type="text" name="Last Name" placeholder="Last Name">
-        </label>
-    </div>
-    <div class="last-input">
-        <label>
-        <input class="last-input" type="text" name="Email" placeholder="Email">
-        </label>
-    </div>
-<div class="button">
-    <button>
-        Subscribe
-    </button>
-</div>
+    <h3>
+        Keep in touch
+    </h3>
+    <p>
+        Get our travel advice, global views and travel freebies in your<br>inbox
+    </p>
+    <form class="input-form">
+        <div class="first-input d-flex justify-between">
+            <label>
+                <input class="First-Name" type="text" name="First Name" placeholder="First Name">
+            </label>
+            <label>
+                <input class="Last-Name" type="text" name="Last Name" placeholder="Last Name">
+            </label>
+        </div>
+        <div class="last-input">
+            <label>
+                <input class="last-input" type="text" name="Email" placeholder="Email">
+            </label>
+        </div>
+        <div class="button">
+            <button>
+                Subscribe
+            </button>
+        </div>
 
 
-</form>
+    </form>
 
 </section>
 
 
-
 <footer>
-<div class="footer d-flex justify-between ">
-<div class="last-logo">
-    <a  href="#">
-        <img src="img/LOGO2.svg" alt="logo>">
-    </a>
+    <div class="footer d-flex justify-between ">
+        <div class="last-logo">
+            <a href="#">
+                <img src="img/LOGO2.svg" alt="logo>">
+            </a>
 
- <ul class=" icon d-flex align-center">
-     <li><a href="#"><img src="img/FB.svg" alt="icon"></a> </li>
-     <li><a href="#"><img src="img/inst.svg" alt="icon"></a> </li>
-     <li><a href="#"><img src="img/twit.svg" alt="icon"></a> </li>
- </ul>
-</div>
-    <div class="ul-about">
-        <ul>
-            <li> <a href="#">ABOUT</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms and </a>Terms and Conditions</li>
-            <li><a href="#">Write for Us</a></li>
-        </ul>
+            <ul class=" icon d-flex align-center">
+                <li><a href="#"><img src="img/FB.svg" alt="icon"></a></li>
+                <li><a href="#"><img src="img/inst.svg" alt="icon"></a></li>
+                <li><a href="#"><img src="img/twit.svg" alt="icon"></a></li>
+            </ul>
+        </div>
+        <div class="ul-about">
+            <ul>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and </a>Terms and Conditions</li>
+                <li><a href="#">Write for Us</a></li>
+            </ul>
 
+        </div>
+        <div class="ul-about">
+
+            <ul>
+                <li><a href="#">CONTACT</a>CONTACT</li>
+                <li><a href="#">Email hi@thalby.com</a></li>
+                <li><a href="#">Help</a></li>
+
+            </ul>
+
+        </div>
     </div>
-    <div class="ul-about">
-
-        <ul>
-            <li><a href="#">CONTACT</a>CONTACT</li>
-            <li><a href="#">Email hi@thalby.com</a></li>
-            <li><a href="#">Help</a></li>
-
-        </ul>
-
-    </div>
-</div>
-<h5>
-    Thalby LLC © 2021
-</h5>
+    <h5>
+        Thalby LLC © 2021
+    </h5>
 
 </footer>
-
 
 
 <script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
