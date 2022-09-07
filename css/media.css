@@ -1,6 +1,5 @@
 @media screen and (max-width: 992px) {
-    .container {
-        padding: 0 15px;}
+
     .owl-next{
         position: absolute;
         right: 40%;
